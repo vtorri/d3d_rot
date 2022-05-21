@@ -1,6 +1,6 @@
 cbuffer cv_viewport : register(b0)
 {
-    float3x2 rotation_matrix;
+    float2x3 rotation_matrix;
 }
 
 struct vs_input
