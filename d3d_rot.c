@@ -102,8 +102,7 @@ typedef struct
 
 typedef struct
 {
-    float rotation[2][3];
-    float dummy[2]; /* for 16 bytes padding */
+    float rotation[2][4];
 } Const_Buffer;
 
 D3d *d3d_init(Window *win, int vsync);
